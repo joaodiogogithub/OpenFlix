@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-image: url("img/wp12816423.webp");
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.85;
+}
+.displayer{
+    display: flex;
+    align-items:center;
+    max-width: fit-content;
+    margin: 100px auto;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1400px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgba(161, 160, 160, 0.582);
+}
+
+.container p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+}
+.container h1 {
+    font-size: 50px;
+}
+
+.video-container {
+    flex: 1 1 60%;
+    height: 0;
+}
+
+.video-container video {
+    position: absolute;
+    top: 135px;
+    left: 0;
+    width: 35%;
+    height: 35%;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: yellowgreen;
+
+}
+
+.btn a{
+    font-size: 20px;
+    color: #000000;
+    
+}
+
+.full-video video{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
