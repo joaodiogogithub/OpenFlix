@@ -66,14 +66,14 @@ body {
     height: 50px;
     margin: 20px;
     border-radius: 20px;
-    background-color: yellowgreen;
+    background-color: red;
 
 }
 
 .btn a{
     font-size: 20px;
-    color: #000000;
-    
+    color: #fff;
+    text-decoration: none;
 }
 
 .full-video video{

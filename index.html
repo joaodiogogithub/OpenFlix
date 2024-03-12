@@ -1,31 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>OpenFlix (DEMO)</title>
-    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/index_style.css">
+    <title>OpenFLIX (DEMO) </title>
+    <script src="script.js"></script>
 </head>
 <body>
-    <div class="background"></div>
+    <header>
+        <h1 class="title">OpenFLIX</h1>
+    </header>
 
-    <div class="displayer">
-        
-        <div class="video-container">
-            <video src="assets/videos/One Piece - Opening 1 【We Are!】 4K 60FPS Creditless ｜ CC.mp4" controls></video>
+    <div class="sidebar">
+        <button id="botao" class="toggle-btn" onclick="toggleSidebar()">☰</button>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Contato</a></li>
+          <li><a href="#">Serviços</a></li>
+        </ul>
+      </div>
+      
+      <div class="content">
+        <h1>ONE PIECE</h1>
+        <p>Conteudo novo.</p>  
+      </div>
+
+      <div class="rotating_selection">
+        <div class="movies">
+            <a href="one_piece.html"><img src="assets/img/thumb-one-piece.webp" alt="One Piece"></a>
         </div>
-
-        <div class="container">
-            <h1>One Piece</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla iaculis lorem non nisl ullamcorper, non eleifend nunc euismod. Proin ornare sem nec odio ullamcorper tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla facilisi. Duis ullamcorper leo mauris, sit amet lobortis turpis tempus vitae. Fusce congue velit sed risus efficitur, eget sollicitudin tortor ullamcorper.</p>
-            <p>Proin ornare sem nec odio ullamcorper tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla facilisi. Duis ullamcorper leo mauris, sit amet lobortis turpis tempus vitae. Fusce congue velit sed risus efficitur, eget sollicitudin tortor ullamcorper.</p>
-            <p>Aenean venenatis leo id velit tincidunt, quis gravida nisl efficitur. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam nec justo nec dolor pellentesque accumsan. Sed nec efficitur risus. Nullam accumsan sapien sit amet fringilla sollicitudin.</p>
-        </div>
+      </div>
+      
+    <footer>
         
-    </div>
-
-    <button class="btn">
-        <a href="reproducer.html">Assistir primeiro episodio</a>
-    </button>
-
-    <script src="script.js"></script>
+    </footer>
 </body>
 </html>
