@@ -29,6 +29,12 @@ header a{
   border-right: 5px solid white;
 }
 
+.sub_title{
+  color: #f8f400;
+  font-size: 50px;
+  margin: 10px;
+}
+
 .sidebar button{
   background: none;
   border: none;
