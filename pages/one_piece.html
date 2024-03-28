@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>OpenFlix (DEMO)</title>
-    <link rel="stylesheet" type="text/css" href="../assets/style.css">
+    <head>
+        <title>OpenFlix (DEMO)</title>
+        <link rel="stylesheet" type="text/css" href="../assets/style.css">
+        <script src="../script.js"></script>
 </head>
 <body>
     <div class="background"></div>
@@ -21,11 +22,26 @@
         </div>
         
     </div>
+    <div class="meupop" id="myPopup">
+        <button class="btn" onclick="closePopup(event)">X</button>
+    </div>
 
-    <button class="btn">
-        <a href="reproducer.html">Assistir primeiro episodio</a>
-    </button>
+    <form class="options">
+        <button class="btn">
+            <a href="../index.html">Voltar</a>
+        </button>
+        <button class="btn" onclick="openPopup(event)">    
+            <a>Lista de episodios</a>
+        </button>
 
-    <script src="script.js"></script>
+        <button class="btn">    
+            <a>Adicionar a lista</a>
+        </button>
+
+        <button class="btn">    
+            <a href="reproducer.html">Assistir primeiro episodio</a>
+        </button>
+    </form>
+
 </body>
 </html>
