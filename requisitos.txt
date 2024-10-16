@@ -1,0 +1,13 @@
+1- Tela principal:
+    - Menu lateral.
+    - Titulo em destaque.
+    - Busca de titulos.
+    - Lista horizontal.
+
+2- Titulo:
+    - Nome.
+    - Descrição.
+    - Miniatura.
+    - Genero.
+
+    

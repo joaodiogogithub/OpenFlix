@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container_emphasys{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    background-image: linear-gradient(to right, black, rgba(255, 255, 255, 0));
+}
+
+.container_emphasys h1{
+    color: white;
+    margin: 20px;
+}
+
+.container_emphasys img{
+    width: 100%;
+    height: 100%;
+    margin-left: 0%;
+}
+
+.horizontal_list{
+    display: flex;
+    width: 100%;
+    height: 30%;
+    background-color: black;
+    padding: 0px;
+}
+
+.thumb{
+    width: 18%;
+    height: 85%;
+    background-color: white;
+    margin: 15px;
+}
+
+.thumb:hover{
+    transform: scale(0.9);
+    border: 5px solid red;
+}
+
+.thumb:active{
+    transform: scale(1.0);
+    border: 2px solid red;
+   
+}
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: -255px;
+    transition: left 0.3s ease;
+}
+
+.active{
+    left: 0px;
+}
+  
+.sidebar ul {
+    list-style-type: none;
+    padding: 10px;
+}
+  
+.sidebar ul li {
+    margin: 10px 0;
+    
+}
+  
+.sidebar ul li a {
+    text-decoration: none;
+}
+
+.toggle-btn {
+    position: absolute;
+    left: 250px;
+    font-size: 30px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #fff;
+    padding: 10px;
+}
+
+.toggle-btn:hover{
+    transform: scale(1.1);
+    color:red;
+}
+
+.toggle-btn:hover{
+    transform: scale(1.1);
+}
+
+.txt_a{
+    color:white;
+    font-size: large;
+}
+
+.txt_a:hover{
+    color: red;
+}
+
+.description_movie{
+    width: 50%;
+    height: 100%;
+    background-image: linear-gradient(to right, black, rgba(255, 255, 255, 0));
+    padding: 20px;
+    
+}
+
+.description_movie h1{
+    color: red;
+    font-size: 50px;
+}
+
+.description_movie h2{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+.description_movie p {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+.button_movie{
+    background-color: red;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 50%;
+    height: 50px;
+}
+
+.thumb img{
+    width: 100%;
+    height: 100%;
+}
